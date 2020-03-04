@@ -1,0 +1,24 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "\"Server NodeJS por Fay Murillo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon \nodeserver"
+  },
+  "keywords": [
+    "\"NodeJS\"",
+    "\"Javascript\"",
+    "\"Nodeserver\""
+  ],
+  "author": "\"Fay Murillo\"",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
