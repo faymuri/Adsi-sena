@@ -16,5 +16,6 @@ const host = process.env.HOST;
 app.listen(port,() => {
     console.log("Welcome to the NodeJS server, listening the port: "+port+" runing from "+host+"" +port);
     console.log("Environment variable user = "+process.env.USER);
+    console.log("Environment variable email = "+process.env.EMAIL);
     console.log("Environment variable password = "+process.env.PASS);
 })
